@@ -1,0 +1,13 @@
+{
+  "name": "my-private-drive",
+  "type": "module",
+  "scripts": {
+    "build": "wrangler pages dev --compatibility-date=2024-01-01",
+    "deploy": "wrangler pages deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240101.0",
+    "hono": "^4.0.0",
+    "wrangler": "^3.0.0"
+  }
+}
